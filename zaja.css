@@ -1,0 +1,75 @@
+.thumb {
+  margin: 30px;
+  display: block;
+  width: 275px;
+  outline: 1px solid rgba(255, 0, 0, 0.185);
+  border-radius: 5px;
+  box-shadow: 24px 20px 13px 9px rgba(191, 192, 204, 0.75);
+  -webkit-box-shadow: 24px 20px 13px 9px rgba(191, 192, 204, 0.75);
+  -moz-box-shadow: 24px 20px 13px 9px rgba(191, 192, 204, 0.75);
+
+  background-color: #fff;
+}
+
+.list {
+  list-style: none;
+}
+
+.foto {
+  box-sizing: border-box;
+  object-fit: cover;
+
+  box-sizing: border-box;
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* outline: 1px solid red; */
+  border: 10px solid rgb(245, 238, 238);
+  border-radius: 50%;
+
+  box-shadow: 2px 1px 8px 2px rgba(105, 104, 104, 0.75);
+  -webkit-box-shadow: 2px 1px 8px 2px rgba(105, 104, 104, 0.75);
+  -moz-box-shadow: 2px 1px 8px 2px rgba(105, 104, 104, 1);
+}
+
+.sosial-links {
+  /* outline: 1px solid red; */
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: block;
+  min-width: 50px;
+  text-align: center;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.telephone {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.flex-columns {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.frex-row {
+  display: flex;
+  gap: 50px;
+  height: ;
+}
